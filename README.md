@@ -16,18 +16,18 @@ Mapper Flow
 - 3 blocks of file running on diff nodes on cluster
 - each node will run record reader which writes block of file to  corresponding mapper
 
-files is written in form of K,V
-where K might be offset of byte in memory
+->files is written in form of K,V
+->where K might be offset of byte in memory
 
 mapper conatins bussines logic
-lets call mapper output as records
-mappers write data out to partioner - partioner decide to send data to which reducer
+  lets call mapper output as records
+  mappers write data out to partioner - partioner decide to send data to which reducer
 
 shuffle and sort phase transforms records to respective reducers
 
-reducer applies osme logic
-reducers o/p to file
-so if 3 reducers then o/p contains 3 files
+reducer applies some logic
+  reducers o/p to file
+  so if 3 reducers then o/p contains 3 files
 
 
 
