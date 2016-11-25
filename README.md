@@ -1,6 +1,6 @@
 # MapReduce
 
-MapReduce allows automatic //zation and distribution of work so jobs run faster
+MapReduce allows automatic //zation and distribution of work, so jobs run faster
 
 3 stages in map reduce
 
