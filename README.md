@@ -1,5 +1,7 @@
 # MapReduce
 
+MapReduce allows automatic //zation and distribution of work so jobs run faster
+
 3 stages in map reduce
 
 1) mapper -- run on hdfs block ,each map runs on node where block is located
@@ -26,3 +28,22 @@ reducer applies osme logic
 reducers o/p to file
 so if 3 reducers then o/p contains 3 files
 
+
+
+
+
+map(in_key,in_value) -- o/p will be (out_key,out_value)
+
+some mappers ignore i/p key mostly when key is offset byte
+
+mappers can filter i/p
+
+identity mapper which o/ps same as i/p
+
+identity reducer which o/ps same as i/p
+
+mapper must contain o/p in K,V form or no o/p should not be list or any other DS
+
+reducer o/p should be one or more unique keys with a single associated value for each
+
+shuffle and sort groups results of mapper by keys
