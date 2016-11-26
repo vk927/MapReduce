@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MapReduce.iml" filepath="$PROJECT_DIR$/MapReduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleMapReduce/SampleMapReduce.iml" filepath="$PROJECT_DIR$/SampleMapReduce/SampleMapReduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleUnitTest/SampleUnitTest.iml" filepath="$PROJECT_DIR$/SampleUnitTest/SampleUnitTest.iml" />
     </modules>
   </component>
 </project>
