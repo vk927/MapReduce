@@ -12,3 +12,20 @@ test locally with small amounts of data
 
 makesure that JVM have of test cluster have same amount of RAM
 
+stdout & stderr are debug techs
+
+local machine logs -- std.err
+
+for remote machinde use hadoop web UI
+
+jobtrackerIPAdds:50030
+
+for namenode
+
+namenodeIPAddress:50070
+
+logging better than println ( println is sophomere way of debigging)
+
+use log4j for logging
+
+
