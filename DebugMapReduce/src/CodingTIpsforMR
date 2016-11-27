@@ -1,0 +1,14 @@
+
+
+Code defensively
+- ensure that input data is in the expected format
+- use try catch exceptions
+
+keep your non map reduce code out of mapper method  and reducer method
+
+write unit tests and MRunit tests
+
+test locally with small amounts of data
+
+makesure that JVM have of test cluster have same amount of RAM
+
